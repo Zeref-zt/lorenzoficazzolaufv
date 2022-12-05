@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/basics.css">
+    <link rel="stylesheet" href="../css/navbar2.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/sidemenu2.css">
+    <title>Courses</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+          <div class="container-nav">
+              <div class="logo">
+                  <a href="#">L.F.</a>
+              </div>
+              <div class="main_list" id="mainListDiv">
+                  <ul>
+                      <li><a href="../index.html">Home</a></li>
+                      <li><a href="Blockchain.html">Blockchain</a></li>
+                      <li><a href="courses.html"><b>Courses</b></a></li>
+                      <li><a href="network.html">Network</a></li>
+                      <li><a href="contactMe.html">Contac Me </a></li>
+                      <li><a href="aboutMe.html">About me</a></li>
+                  </ul>
+              </div>
+              <div class="media_button">
+                  <button class="main_media_button" id="mediaButton">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </button>
+              </div>
+          </div>
+        </nav>
+      </header>
+      <div class="container">
+        <div class="item-25">
+          <h6><span  class="button-sidemenu"  onclick="openNav()">&#9776;</span></h6>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#" onclick="show('first')">First</a>
+            <ul class="ul-sidemenu" id="first">
+              <li class="li-sidemenu" ><a href="#" onclick="showTitle('Matematica Discreta')">Matematica Discreta</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Matematica Para La Ingenieria I')">Matematica Para La Ingenieria I</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Matematica Para La Ingenieria II')">Matematica Para La Ingenieria II</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showFundamentos()">Fundamentos de ingenierìa informatica</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('introducciòn a la programaciòn')">introducciòn a la programaciòn</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Lògica y pensamiento critico')">Lògica y pensamiento critico</a></li>
+            </ul>
+            <a href="#" onclick="show('second')">Second</a>
+            <ul class="ul-sidemenu" id="second">
+              <li class="li-sidemenu"><a  href="#" onclick="showTitle('Estructuras de datos y algiritmos')">Estructuras de datos y algiritmos</a></li>
+              <li class="li-sidemenu"><a  href="#" onclick="showTitle('Arquitectura y organizaciòn de computadores')">Arquitectura y organizaciòn de computadores</a></li>
+              <li class="li-sidemenu"><a  href="#" onclick="showTitle('Analisis y diseno de sistemas de informacion')">Analisis y diseno de sistemas de informacion</a></li>
+              <li class="li-sidemenu"><a  href="#" onclick="showTitle('Desarrollo')">Desarrollo</a></li>
+              <li class="li-sidemenu"><a  href="#" onclick="showTitle('Proyectos I')">Proyectos I</a></li>
+              <li class="li-sidemenu"><a  href="#" onclick="showTitle('Antropologià y responsabilidad social')">Antropologià y responsabilidad social</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Estadistica')">Estadistica</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Bases de datos')">Bases de datos</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Sistemas operativos')">Sistemas operativos</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Ingenierià del software I')">Ingenierià del software I</a></li>
+            </ul>
+            <a href="#" onclick="show('third')">Third</a>
+            <ul class="ul-sidemenu" id="third">
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Inteligencia Artificial I')">Inteligencia Artificial I</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Ingenieria del software II')">Ingenieria del software II</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Desarrollo e integracion de software')">Desarrollo e integracion de software</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Interacciòn persona ordenador')">Interacciòn persona ordenador</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Complejidad computacional')">Complejidad computacional</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Etica y deontologìa profesional')">ètica y deontologìa profesional</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Admnistracion de sistemas')">Admnistracion de sistemas</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Bases de datos avanzadas')">Bases de datos avanzadas</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Redes y sistemas distribuitos')">Redes y sistemas distribuitos</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Proyectos II')">Proyectos II</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Aprendizaje estadistico y Data mining')">Aprendizaje estadistico y Data mining</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Inteligencia Artificial II')">Inteligencia Artificial II</a></li>
+            </ul>
+            <a href="#" onclick="show('fourth')">Fourth</a>
+            <ul class="ul-sidemenu" id="fourth">
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Gestìon de calidad')">Gestìon de calidad</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Computaciòn de alto rendimiento')">Computaciòn de alto rendimiento</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('La cuestiòn de dios en la era digital')">La cuestiòn de dios en la era digital</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Seguridad')">Seguridad</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Planificaciòn y gestiòn de proyectos informàticos')">Planificaciòn y gestiòn de proyectos informàticos</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Ingenierìa del conocimiento')">Ingenierìa del conocimiento</a></li>
+              <li class="li-sidemenu"><a href="#" onclick="showTitle('Proyecto fin de grado')">Proyecto fin de grado</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="item-75">
+          <section id="general" >
+            <h1 id="title" >Matematica Discreta</h1>
+            <br>
+            <br>
+            <h2>Tema 1</h2>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quam laudantium, ipsa assumenda repellendus ea aliquid at quos minima, provident nisi reiciendis autem libero facilis sit fuga doloremque deleniti animi.</p>
+            <br>
+            <br>
+            <h2>Tema 2</h2>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quam laudantium, ipsa assumenda repellendus ea aliquid at quos minima, provident nisi reiciendis autem libero facilis sit fuga doloremque deleniti animi.</p>
+            <br>
+            <br>
+            <h2>Tema 3</h2>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quam laudantium, ipsa assumenda repellendus ea aliquid at quos minima, provident nisi reiciendis autem libero facilis sit fuga doloremque deleniti animi.</p>
+            <br>
+            <br>
+            <h2>Tema 4</h2>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quam laudantium, ipsa assumenda repellendus ea aliquid at quos minima, provident nisi reiciendis autem libero facilis sit fuga doloremque deleniti animi.</p>
+          </section>
+          <section id ="Fundamentos" class="fundamentos">
+            <h1 >Fundamentos de ingenierìa informatica</h1>
+            <br>
+            <br>
+            <div class="container">
+              <div class="item-75">
+                <h2>Course documentation</h2>
+              </div>
+              <div class="item-25">
+                <div class="item item-button">
+                  <a class="button" href="http://notas.ufv.es/documentos/gd/5614_p_en.pdf">Link</a>
+              </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="item-75">
+                <h2>Subject description</h2>
+                
+              </div>
+              <div class="item-100">
+                <p>
+                  "Fundamentals of Computer Engineering" aims to provide a global vision of Computer Engineering in both
+                  academic and professional points of view. The course gives the students a grasp of the fundamentals on which
+                  this engineering is based (mathematics, physics, anthropology and ethics), the future professional careers and the
+                  role of a computer engineer in today's society. The course is divided in two parts. the first part addresses the theoretical foundations, while the second helps
+                  develop practical skills.
+                  The first part covers three fundamental blocks of content.<br>
+                  1) Computer Engineering in Society: Background and historical perspective: past, present and future of Computer
+                  Engineering. Computer Engineering as an academic discipline or profession. The human factor: anthropological
+                  and ethical foundations.<br>
+                  2) Information and Data: Information representation. Organization of information.<br>
+                  3) Information Processing, Management and Transmission: Fundamentals, current paradigms and trends in
+                  computer systems and applications.<br>
+                  The second part of the course is devoted to the development of practical skills where an introduction to web
+                  development is addressed, through the realization of a project for the creation of a web page on contents related
+                  to the course.
+                  Besides providing the basics of a computer engineer technical skills, this course contributes to the development
+                  basic soft-skills for an engineer, such as teamwork, ethical commitment and communication skills, both oral and
+                  written, of technical information, favouring the comprehensive training of the engineer as stated in the educational
+                  project of the University.
+                  "Fundamentals of Computer Engineering" aims to provide a global vision of Computer Science both from an
+                  academic and professional point of view. This subject introduces students to the fundamentals on which this
+                  computer science is based (mathematics, physics, electronic, anthropology and ethics), future professional
+                  careers and the role of the computer engineer in the current society.
+                  The subject is divided into two parts: <br>
+                  (1) the first part deals with the theoretical foundations; and <br>
+                  (2) the second part helps to develop practical skills based on the theorical foundations.<br>
+                  The first part covers three fundamental modules of content:<br>
+                  1) Introduction to Computer Science.: Background and historical perspective: past, present and future of Computer
+                  Science. Computer Science as an academic discipline or profession. The human factor: anthropological and
+                  ethical foundations.<br>
+                  2) Foundations about Computer Science: Fundamentals, current paradigms and trends in computer systems and
+                  applications.<br>
+                  3) Information and Data: Representation of information and data foundations.
+                  The second part of the subject is dedicated to the development of practical skills where an introduction to web
+                  development is addressed, by carrying out a real project to create a web page on content related to the subject.
+                  Besides, this subject provides the basic technical skills of a computer engineer, this subject contributes to the
+                  development of basic soft-skills for an engineer, such as individual and teamwork, ethical commitment and
+                  communication skills, both oral and written, of technical information, favoring the comprehensive training of
+                  engineers as stated in the educational project of the University.
+                </p>
+              </div>
+              <div class="container">
+                <div class="item-75">
+                  <h2>Goal</h2>
+                </div>
+                <div class="item-100">
+                  The subject goals intends to cover are:<br>
+                  - Understanding the reason for Computer Science, what is the main goal it pursues and the good it brings to
+                    society, reflecting on the role that each one wants to play as an engineer in the society of the future.<br>
+                    - Knowing the fundamentals pillars on which technological progress must be based, having a first historical
+                    perspective of computer science evolution.<br>
+                  - Becoming aware of the importance of the human factor in professional practice and foster a vocation for service
+                    and a sense of contribution to the common good.<br>
+                  - Having a global vision of the career, its different knowledge areas understanding the different professional
+                  opportunities and profiles to start asking your vocation.<br>
+                  - Providing information about the current paradigms, computing trends, big data, artificial intelligence and web
+                  development.<br>
+                </div>
+              </div>
+              <div class="container">
+                <div class="item-75">
+                  <h2>
+                    Course syllabus
+                  </h2>
+                </div>
+                <div class="item-100">
+                  <p>
+                    PART I - THEORETICAL FOUNDATIONS <br>
+                    Module 1 - Introduction to Computer Science. <br>
+                    - Background and historical perspectives. <br>
+                    - Definitions and basic concepts about computer science Past, present and future of ICT.<br>
+                    - Computer Science as an academic discipline.<br>
+                    - Competencies for the Computer Engineer.<br>
+                    - Career opportunities<br>
+                    - Computer Science and Ethics.<br>
+                    Module 2 - Foundations about Computer Science<br>
+                    - Software development: more than just programming.<br>
+                    - Introduction to hardware, networks and software.<br>
+                    - Computer science trends: edge computing, cloud computing, quantum computing, cognitive computing,
+                    blockchain, smart cities, AI, IoT...<br>
+                    Module 3 - Information and data.<br>
+                    - Introduction to the concept of information<br>
+                    - Information Foundations: numbering systems, representation of numerical and alphanumeric information (codes).<br>
+                    - Data Foundations: Data Models, Data Security, Data Governance, Data Laws.<br>
+                    - Big Data<br>
+                    PART II - PRACTICAL SKILLS<br>
+                    Module 1 - HTML5 Web pages<br>
+                    - Basic concepts<br>
+                    - Labels<br>
+                    - Organization of information and layout with CSS3<br>
+                    Modele 2 - Design and layout with CSS3<br>
+                    - Basic concepts<br>
+                    - Selectors<br>
+                    - Box model<br>
+                    - Positioning of elements<br>
+                    Module 3. Introduction to JavaScript<br>
+                    - What is JavaScript?<br>
+                    - My first program<br>
+                    - Javascript basic<br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          </div>
+        </div>
+        <div class="container">
+          <div class="item-100-footer">
+            <footer class="site-footer">
+              <div class="container">
+                <div class="item">
+                    <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+                     Lorenzo Ficazzola.
+                    </p>
+                  </div>
+                  <div class="item">
+                    <ul class="social-icons">
+                      <li><a class="instagram" href="https://www.instagram.com/Lorenzo_zt/"><i class="fa fa-instagram"></i></a></li>
+                      <li><a class="twitter" href="https://mobile.twitter.com/zeref_zt"><i class="fa fa-twitter"></i></a></li>
+                      <li><a class="linkedin" href="https://it.linkedin.com/in/lorenzo-ficazzola-8740851b1?trk=public_profile_browsemap"><i class="fa fa-linkedin"></i></a></li>   
+                    </ul>
+                  </div>
+                </div>
+              </footer>
+          </div>
+        </div>
+
+      </div>
+      
+
+   
+    <script src="https://kit.fontawesome.com/d7f13da098.js" crossorigin="anonymous"></script>
+    <script src="../JS/sidemenu.js"></script>
+    <script src="../JS/navbar.js"></script>
+</body>
+</html>

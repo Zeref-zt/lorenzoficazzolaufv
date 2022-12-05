@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/basics.css">
+    <link rel="stylesheet" href="../css/navbar2.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <title>Contac me</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+          <div class="container-nav">
+              <div class="logo">
+                  <a href="#">L.F.</a>
+              </div>
+              <div class="main_list" id="mainListDiv">
+                  <ul>
+                      <li><a href="../index.html">Home</a></li>
+                      <li><a href="Blockchain.html">Blockchain</a></li>
+                      <li><a href="courses.html">Courses</a></li>
+                      <li><a href="network.html">Network</a></li>
+                      <li><a href="network.html"><b>Contac Me </b></a></li>
+                      <li><a href="aboutMe.html">About me</a></li>
+                  </ul>
+              </div>
+              <div class="media_button">
+                  <button class="main_media_button" id="mediaButton">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </button>
+              </div>
+          </div>
+        </nav>
+      </header>
+      <div class="container">
+        <div class="item">
+            <h1>Contact Me</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="item">
+            <p>Enter your email to stay in touch<p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="item">
+            <div class="formbold-main-wrapper">
+                <div class="formbold-form-wrapper">
+                  <form onsubmit="sendEmail(); reset(); return false;" method="POST">
+                    <div class="formbold-mb-5">
+                      <label for="name" class="formbold-form-label"> Full Name </label>
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Full Name"
+                        class="formbold-form-input"
+                      />
+                    </div>
+              
+                    <div class="formbold-mb-5">
+                      <label for="email" class="formbold-form-label"> Email Address </label>
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        class="formbold-form-input"
+                      />
+                    </div>
+                    
+                    <div>
+                      <button class="formbold-btn" type="submit">Submit</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+        </div>
+      </div>
+      <footer class="site-footer">
+        <div class="container">
+          <div class="item">
+              <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+           Lorenzo Ficazzola.
+              </p>
+            </div>
+    
+            <div class="item">
+              <ul class="social-icons">
+                <li><a class="instagram" href="https://www.instagram.com/Lorenzo_zt/"><i class="fa fa-instagram"></i></a></li>
+                <li><a class="twitter" href="https://mobile.twitter.com/zeref_zt"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="linkedin" href="https://it.linkedin.com/in/lorenzo-ficazzola-8740851b1?trk=public_profile_browsemap"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/d7f13da098.js" crossorigin="anonymous"></script>
+
+      <script src="../JS/navbar.js"></script>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script src="../JS/form.js"></script>
+</body>
+</html>
